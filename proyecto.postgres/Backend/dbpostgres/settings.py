@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'dbpostgres.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'biblioteca',
+        'NAME': 'post_prueba',
         'USER': 'postgres',
         'PASSWORD':'87654321',
         'HOST':'localhost',
