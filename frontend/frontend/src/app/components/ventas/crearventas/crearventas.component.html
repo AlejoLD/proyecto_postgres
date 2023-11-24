@@ -29,7 +29,7 @@
 <p-table [value]="venta">
     <ng-template pTemplate="header">
     
-        <tr>
+        <tr class="barra">
             <th>Id</th>
             <th>Fecha</th>
             <th>Descuento</th>
@@ -40,7 +40,7 @@
         </tr>
     </ng-template>
     <ng-template pTemplate="body" let-producto>
-        <tr>
+        <tr class="tabla">
             <td>{{producto.id}}</td>
             <td>{{producto.fecha}}</td>
             <td>{{producto.descuento}}</td>

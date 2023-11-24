@@ -49,7 +49,7 @@ export class CrearclienteComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.mostrarCliente
+    this.mostrarCliente();
   }
   visible: boolean = false;
 

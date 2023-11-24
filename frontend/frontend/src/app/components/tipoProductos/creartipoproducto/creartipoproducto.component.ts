@@ -10,7 +10,7 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./creartipoproducto.component.css']
 })
 export class CreartipoproductoComponent {
-  public mostrar: tipoProducto[] = []
+  public tipo: tipoProducto[] = []
   public displayedColumns: string[] = ["id", " nombre "]
   constructor(
     private tipoService: TipoproductoService,
@@ -39,8 +39,8 @@ export class CreartipoproductoComponent {
   mostrartipoproducto() {
     this.tipoService.getAlltipoproducto()
       .subscribe((tipoproducto: tipoProducto[]) => {
-        this.mostrar = tipoproducto;
-        console.log(this.mostrar);
+        this.tipo = tipoproducto;
+        console.log(this.tipo);
       });
   }
 

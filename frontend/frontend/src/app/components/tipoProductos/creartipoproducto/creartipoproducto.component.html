@@ -1,5 +1,5 @@
 <div class="card">
-    <p-table [paginator]="true" [rows]="5" [value]="mostrar" [tableStyle]="{ 'min-width': '50rem' }">
+    <p-table [paginator]="true" [rows]="5" [value]="tipo" [tableStyle]="{ 'min-width': '50rem' }">
         <ng-template pTemplate="header">
 
             
@@ -17,14 +17,14 @@
          
     </p-dialog>
 </div>
-            <tr>
+            <tr class="barra">
                
                 <th>nombre</th>
                
             </tr>
         </ng-template>
         <ng-template pTemplate="body" let-usuario>
-            <tr>
+            <tr class="tabla">
              
                 <td>{{ usuario.nombre }}</td>
                 

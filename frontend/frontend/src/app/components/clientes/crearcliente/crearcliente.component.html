@@ -28,7 +28,7 @@
          
     </p-dialog>
 </div>
-            <tr>
+            <tr class="barra">
                 <th>id</th>
                 <th>nombre</th>
                 <th>direccion</th>
@@ -37,14 +37,14 @@
                 <th>password</th>
             </tr>
         </ng-template>
-        <ng-template pTemplate="body" let-usuario>
-            <tr>
-                <td>{{ usuario.id }}</td>
-                <td>{{ usuario.nombre }}</td>
-                <td>{{ usuario.direccion }}</td>
-                <td>{{ usuario.telefono }}</td>
-                <td>{{ usuario.correo }}</td>
-                <td>{{ usuario.password }}</td>
+        <ng-template pTemplate="body" let-client>
+            <tr class="tabla">
+                <td>{{ client.id }}</td>
+                <td>{{ client.nombre }}</td>
+                <td>{{ client.direccion }}</td>
+                <td>{{ client.telefono }}</td>
+                <td>{{ client.correo }}</td>
+                <td>{{ client.password }}</td>
             </tr>
         </ng-template>
     </p-table>

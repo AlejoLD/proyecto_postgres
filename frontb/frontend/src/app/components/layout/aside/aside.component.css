@@ -1,0 +1,13 @@
+.aside{
+    background-color:#CDEDF6;
+    color:bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.botonmenu{
+    background-color:#CDEDF6;
+    color:green;
+}

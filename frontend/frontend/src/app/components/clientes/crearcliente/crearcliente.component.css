@@ -1,4 +1,5 @@
 .user-form {
+    background-color:#BC8179;
     max-width: 400px;
     margin: 20px auto;
     padding: 20px;
@@ -18,10 +19,20 @@
     margin-bottom: 16px;
     box-sizing: border-box;
   }
+  .tabla{
+    background-color:#BC8179;
+    color:#fff;
+
+}
+.barra th{
+    background-color:#902923;
+    color:#fff;
+
+}
   
   button {
-    background-color: #4caf50;
-    color: white;
+    background-color: white;
+    color: #902923;
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
@@ -29,5 +40,8 @@
   }
   
   button:hover {
-    background-color: #45a049;
+    
+    background-color:#902923;
+    color: white;
+
   }

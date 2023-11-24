@@ -6,7 +6,7 @@
 <p-table [value]="client">
     <ng-template pTemplate="header">
     
-        <tr>
+        <tr class="barra">
             <th>Id</th>
             <th>Nombre</th>
             <th>Direccion</th>
@@ -17,7 +17,7 @@
         </tr>
     </ng-template>
     <ng-template pTemplate="body" let-client>
-        <tr>
+        <tr class="tabla">
             <td>{{client.id}}</td>
             <td>{{client.nombre}}</td>
             <td>{{client.direccion}}</td>
